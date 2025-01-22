@@ -1,0 +1,9 @@
+version: 2
+
+models:
+    - name: stg_orders # Nom du fichier sur lequel on veut intervenir
+      columns:
+        - name: orders_id # Nom de la colonne que l'on a "créé" avec la vue (cf fichier sql)
+        - name: customer_id # Nom de la colonne que l'on a "créé" avec la vue (cf fichier sql)
+        - name: orders_ordered_at # Nom de la colonne que l'on a "créé" avec la vue (cf fichier sql)
+        - name: orders_store_id # Nom de la colonne que l'on a "créé" avec la vue (cf fichier sql)

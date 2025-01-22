@@ -1,0 +1,7 @@
+version: 2
+
+models:
+    - name: stg_customers # Nom du fichier sur lequel on veut intervenir
+      columns:
+        - name: customer_id # Nom de la colonne que l'on a "créé" avec la vue (cf fichier sql)
+        - name: customer_name # Nom de la colonne que l'on a "créé" avec la vue (cf fichier sql)

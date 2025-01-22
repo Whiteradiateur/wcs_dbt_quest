@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+    - name: my_dbt_db # Nom de la base de données
+      schema: my_dbt_db # Nom de la base de données
+
+      tables:
+        - name: raw_customers # Table "raw" sur laquelle je veux effectuer des opérations (sql, yml)
+        - name: raw_orders # Table "raw" sur laquelle je veux effectuer des opérations (sql, yml)
